@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/60d343d9-a24a-47b3-9ed5-184ec3d0ea45/d1zb1mc-f1b68c46-570c-4212-aa73-1438d4c0bb29.png/v1/fill/w_1000,h_800,q_70,strp/4th_gen_pokemon_sprites_by_ghost_crabs_d1zb1mc-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcLzYwZDM0M2Q5LWEyNGEtNDdiMy05ZWQ1LTE4NGVjM2QwZWE0NVwvZDF6YjFtYy1mMWI2OGM0Ni01NzBjLTQyMTItYWE3My0xNDM4ZDRjMGJiMjkucG5nIiwid2lkdGgiOiI8PTIwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.3bKj_6WNbEY1wXfVT5541P68UD6zO3r60iwsCwMJ2cI")
+      no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.pokemon-container {
+  width: 400px;
+}
+
+#pokemon-image {
+  width: 200px;
+}
+
+#random-pokemon {
+  margin: 0;
+}
+
+#pokemon-button {
+  background-color: rgb(253, 122, 122);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+#pokemon-button:active {
+  background-color: rgb(199, 113, 133);
+  color: rgb(224, 223, 233);
+}
